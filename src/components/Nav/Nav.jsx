@@ -1,8 +1,11 @@
 import React from 'react'
+import {AiFillHome} from 'react-icons/ai'
 
 const Nav = () => {
   return (
-    <div>Nav</div>
+    <nav>
+      <a href="#"><AiFillHome /></a>
+    </nav>
   )
 }
 
